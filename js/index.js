@@ -7,8 +7,7 @@ $(document).ready(function()
             auto: true,
             stopAutoOnClick: true,
             pager: true,
-            controls: false
+            controls: false,
           });
-    
     }
 })
