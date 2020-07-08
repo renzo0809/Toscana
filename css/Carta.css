@@ -44,3 +44,7 @@
     color:#7b2529;
     font-weight: 700;
 }
+
+footer .row{
+    margin-bottom: 0px !important;
+}
