@@ -33,6 +33,8 @@ body{
     height: 100%;
 }
 
+
+
 #Cabecera .nav--size-big ul li{
     padding-right: 30px;
     padding-left: 100px;
@@ -92,11 +94,14 @@ body{
 @media screen and (max-width:1024px)
 {
     .bx-viewport, .bx-wrapper {
-        height: 200px !important; /*provide height of slider*/
+        height: 300px !important;
+        /*provide height of slider*/
     }
     .slider img{
-        width: 100%;
-        height: 200px;
+        display: block !important;
+        width: 1000px !important;
+        height: 300px;
+        object-fit: cover;
     }    
 }
 .img-post{
