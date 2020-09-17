@@ -45,6 +45,14 @@
     font-weight: 700;
 }
 
+@media screen and (max-width:1024px)
+{
+    .card-title{
+        font-size: 14px !important;
+        font-weight: 700 !important;
+    }
+}
+
 footer .row{
     margin-bottom: 0px !important;
 }
