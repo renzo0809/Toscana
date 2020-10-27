@@ -194,13 +194,48 @@ footer img{
    width: 100px;
    float:left;
 }
-
-#RedesSociales img{
-    float:right;
-    width:40px;
-    margin: 30px 30px 20px 50px;
+.RedesSociales__Container{
+    display: flex;
+    justify-content: center;
+    margin-left: 240px;
+}
+.Copyright__Container{
+    display: flex;
     align-items: center;
 }
+.Copyright__Container span{
+    margin-top:0 !important;
+}
+.Copyright__Container a{
+    color: #e32f40;
+}
+#RedesSociales img{
+    width:40px;
+    margin: 30px 30px 20px 30px;
+}
+@media screen and (max-width:1024px)
+{
+    .RedesSociales__Container{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .Copyright__Container{
+        display: flex;
+        align-items: center;
+        
+    }
+    .Copyright__Container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+}
+
+
+
 @media screen and (max-width:1024px)
 {
     footer{
@@ -217,11 +252,11 @@ footer img{
 /*Tooltip----------------------------------*/
 .tooltip{
     content:'';
-    width: 60px;
-    height: 60px;
+    width: 80px;
+    height: 80px;
     position: fixed;
-    bottom: 40px;
-    right: 40px;
+    bottom: 20px;
+    right: 20px;
     background-image: url('../img/wsp.png');
     background-size: cover;
     z-index: 2;
@@ -245,14 +280,14 @@ footer img{
 {
     .tooltip{
         content:'';
-        width: 60px;
-        height: 60px;
+        width: 70px;
+        height: 70px;
         position: fixed;
         bottom: 20px;
         right: 20px;
         background-image: url('../img/wsp.png');
         background-size: cover;
-        z-index: 1;
+        z-index: 2;
     }
 }
 /*-----------------------------------------*/
