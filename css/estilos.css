@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
 
+
+
 body{
     font-family:"Open Sans",sans-serif;
     background-color: #f3f3ef;
+    
 }
 
 .clearfix{
@@ -13,7 +16,7 @@ body{
 /*Header styles----------------------------*/
 #Cabecera #Logo{
     display: inline-block;
-    width: 200px;
+    width: 18vw;
     height: 80%;
     margin: 20px;
 }
@@ -93,6 +96,12 @@ body{
 }
 @media screen and (max-width:1024px)
 {
+    #Cabecera #Logo{
+        display: inline-block;
+        width: 200px;
+        height: 80%;
+        margin: 20px 0;
+    }
     .bx-viewport, .bx-wrapper {
         height: 300px !important;
         /*provide height of slider*/
@@ -125,6 +134,9 @@ body{
 }
 
 /*Card Styles-------------*/
+.card{
+    min-height: 260px;
+}
 .card-title{
     font-size: 20px !important;
     font-weight: 700 !important;
@@ -183,7 +195,6 @@ footer{
     width: 100%;
     height: 120px;
     padding:10px;
-    
 }
 
 footer .row{
@@ -202,6 +213,7 @@ footer img{
 .Copyright__Container{
     display: flex;
     align-items: center;
+    padding-top: 15px;
 }
 .Copyright__Container span{
     margin-top:0 !important;
@@ -270,7 +282,7 @@ footer img{
     border-radius: 5px;
     position: absolute;
     top:-60px;
-    left:-80px;
+    left:-70px;
     padding: 10px;
     width:140px;
     text-align: center;
